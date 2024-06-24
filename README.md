@@ -1,6 +1,6 @@
 # Моё резюме
 
-- Adoptive design
+- Адаптивный дизайн
 - React, NextJs, Typescript
 
 ## Скриншоты
