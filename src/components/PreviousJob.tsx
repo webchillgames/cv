@@ -1,4 +1,3 @@
-
 interface IJob {
     title: string,
     company: string,
