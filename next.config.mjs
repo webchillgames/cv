@@ -7,8 +7,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/cv' : '',
-  assetPrefix: isProd ? '/cv/' : '',
+  basePath: isProd ? '/https://webchillgames.github.io/cv' : '',
+  assetPrefix: isProd ? '/https://webchillgames.github.io/cv/' : '',
 };
 
 export default nextConfig;
