@@ -5,7 +5,7 @@ export default function Header() {
         <div className='flex items-center rounded-xl overflow-hidden mb-4 shadow-lg bg-white h-32 lg:h-auto'>
             <div className="rounded-r-full overflow-hidden">
                 <Image
-                    src="/avatar.jpeg"
+                    src="avatar.jpeg"
                     width={200}
                     height={200}
                     style={{ objectFit: "cover" }}
