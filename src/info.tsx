@@ -7,6 +7,7 @@ export const skills = [
     'Webpack',
     'REST API',
     'AR (Aframe.js)',
+    'Leaflet, OpenWeatherMap'
 ]
 
 export const additional = [
