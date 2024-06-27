@@ -24,7 +24,7 @@ export const education = [
 export const jobs = [
     {
         title: 'Frontend разработчик',
-        company: 'ООО Эврика',
+        company: 'АНО Институт проблем образовательной политики Эврика',
         period: 'Декабрь 2022 - настоящее время',
         place: 'Южно-Сахалинск, Россия ',
         responsibilities: [
