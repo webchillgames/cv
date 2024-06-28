@@ -25,7 +25,7 @@ export const jobs = [
     {
         title: 'Frontend разработчик',
         company: 'АНО Институт проблем образовательной политики Эврика',
-        period: 'Декабрь 2022 - настоящее время',
+        period: { start: { month: 11, year: 2022 }, end: null, },
         place: 'Южно-Сахалинск, Россия ',
         responsibilities: [
             'Разработка и поддержка веб-приложений с использованием Vue.js',
@@ -40,7 +40,7 @@ export const jobs = [
     {
         title: 'Frontend разработчик',
         company: 'BYSS Mobile',
-        period: 'Март 2022 - Август 2022 (6 месяцев)',
+        period: { start: { month: 2, year: 2022 }, end: { month: 7, year: 2022 } },
         place: 'Щецин, Польша',
         responsibilities: [
             'Разработка лендингов',
