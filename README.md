@@ -1,5 +1,7 @@
 # Моё резюме
 
+Посмотреть по ссылке -> [перейти](https://webchillgames.github.io/cv/)
+
 - Адаптивный дизайн
 - React, NextJs, Typescript
 
