@@ -1,23 +1,12 @@
 export const skills = [
-    'Vue 3, Vue Router, Pinia, Composition API',
-    'HTML5, CSS3, SASS',
+    'Vue3, Pinia, Vue router, Composition API',
     'Typescript',
-    'JavaScript (ES6+)',
-    'Git, GitHub',
-    'Webpack',
-    'REST API',
-    'AR (Aframe.js)',
-    'Leaflet, OpenWeatherMap'
-]
-
-export const additional = [
-    '2021 Стажировка HTML Academy (3 мес)',
-    'Опыт работы ручным QA',
+    'JavaScript',
+    'Git',
+    'Figma',
 ]
 
 export const education = [
-    'Курсы HTML Academy (1 год)',
-    'Курсы Udemy',
     'СГАСУ (Самара)',
 ]
 
@@ -25,16 +14,17 @@ export const jobs = [
     {
         title: 'Frontend разработчик',
         company: 'АНО Институт проблем образовательной политики Эврика',
-        period: { start: { month: 11, year: 2022 }, end: null, },
+        period: { start: { month: 11, year: 2022 }, end: { month: 9, year: 2024 }, },
         place: 'Южно-Сахалинск, Россия ',
         responsibilities: [
-            'Разработка и поддержка веб-приложений с использованием Vue.js',
-            'Интеграция с REST API',
-            'Оптимизация производительности приложений',
-            'Выстраивание и доработка процессов разработки в команде',
-            'Коммуникация с заказчиком напрямую, уточнение и корректировки ТЗ',
-            'Отслеживание и корректировка сроков разработки/релизов',
-            'Разработка UI/UX',
+            'Коммуникации с клиентом: анализ и оценка требований, проработка ТЗ;',
+            'Разработка и поддержка/доработка функционала;',
+            'Отладка, рефакторинг, тестирование;',
+            'Разработка системы ролей и доступов;',
+            'Работа с данными (REST API) и их интеграция;',
+            'Разработка дизайна;',
+            'Разработка руководства пользователя (Vuepress);',
+
         ]
     },
     {

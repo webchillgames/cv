@@ -16,8 +16,8 @@ interface IPeriod {
 }
 
 function listOfResponsibilities(responsibilities: string[]) {
-    const list = responsibilities.map((r, i) => <li key={i} className="my-2">{r}</li>)
-    return <ul className="list-disc pl-4">{list}</ul>
+    const list = responsibilities.map((r, i) => <li key={i} className="my-1">{r}</li>)
+    return <ul className="list-disc pl-5">{list}</ul>
 }
 
 function countMonth(period: IPeriod): String {
@@ -52,7 +52,7 @@ function countMonth(period: IPeriod): String {
     const monthYear = (d: Date) => `${months[d.getMonth()]} ${d.getFullYear()}`
     const result = (diff: number): string => {
         if (diff < 12) {
-            return `${diff}`
+            return `${diff} м.`
         }
 
         const years = Math.floor(diff / 12)
@@ -67,9 +67,13 @@ function countMonth(period: IPeriod): String {
 export default function PreviousJob({ job }: { job: IJob }) {
     return (
         <div className="my-4">
-            <h3 className="font-bold mb-1 text-lg">{job.title}, {job.company}</h3>
+            <h3 className="font-bold mb-1 text-lg"> {job.company} ({job.place})</h3>
             <p className="mb-1 text-stone-500">{countMonth(job.period)}</p>
-            <p className="mb-3 text-stone-500">{job.place}</p>
+
+            <p className="my-3">{job.title}</p>
+
+            <p>Задачи:</p>
+
             {listOfResponsibilities(job.responsibilities)}
         </div>
     )
